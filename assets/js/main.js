@@ -14,6 +14,10 @@ const header = {
 header.init()
 
 
+$(window).on('load', function(event) {
+    $('body').removeClass('perloading');
+    $('.loader').delay(1000).fadeOut('fast');
+});
 
 const keader = {
     init: function() {
