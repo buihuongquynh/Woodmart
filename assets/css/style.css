@@ -58,8 +58,13 @@
                        
                        .header .menu__left .hover {
                            padding: 18px 0;
+                           display: flex;
+                           align-items: center;
                        }
-                       
+                       .hover .fas{
+                           font-size: 16px;
+                           margin-left: 4px;
+                       }
                        .header .menu__left ul,
                        p {
                            padding: 0 10px;
@@ -289,7 +294,7 @@
                        
                        .banner .banner__list {
                            white-space: nowrap;
-                           padding: 15px;
+                           padding: 17px;
                            font-size: 13px;
                            color: white;
                            display: flex;
@@ -352,7 +357,7 @@
                            padding: 10px 0 10px 10px;
                            top: 8.5%;
                            left: 8%;
-                           width: 24.5%;
+                           width: 24.4%;
                            background-color: white;
                        }
                        
@@ -360,6 +365,7 @@
                            height: 45px;
                            display: flex;
                            text-align: center;
+                           align-items: center;
                            justify-content: space-between;
                            border-bottom: 1px solid rgba(82, 82, 82, .185);
                        }
@@ -400,9 +406,14 @@
                        .banner .banner__link a:hover {
                            color: #83b735;
                        }
-                       
+                        .banner .fas {
+                           font-size: 17px !important;
+                           margin-left: 3px !important;
+                       } 
                        .banner .banner__link .about .about__item {
-                           padding: 17px 14px
+                           padding: 17px 14px;
+                           display: flex;
+                           align-items: center;
                        }
                        
                        .text__img {
