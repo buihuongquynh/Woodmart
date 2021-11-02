@@ -79,28 +79,28 @@ $('.owl-carousel').owlCarousel({
 
 
 
-const gallery = {
-    init: function() {
-        gallery.clickFilter();
-    },
-    clickFilter: function() {
-        $('.gallery_masonry').isotope({
-            itemSelector: '.gallery__item',
-            // layoutMode: 'fitRows'
-        });
-        $('.gallery-section .gallery__list li').click(function() {
-            $('.gallery-section .gallery__list li').removeClass('gallery-active');
-            $(this).addClass('gallery-active');
-            var selector = $(this).attr('data-filter');
-            $('.gallery_masonry').isotope({
-                filter: selector
-            });
-            return false;
-        });
+// const gallery = {
+//     init: function() {
+//         gallery.clickFilter();
+//     },
+//     clickFilter: function() {
+//         $('.gallery_masonry').isotope({
+//             itemSelector: '.gallery__item',
+//             // layoutMode: 'fitRows'
+//         });
+//         $('.gallery-section .gallery__list li').click(function() {
+//             $('.gallery-section .gallery__list li').removeClass('gallery-active');
+//             $(this).addClass('gallery-active');
+//             var selector = $(this).attr('data-filter');
+//             $('.gallery_masonry').isotope({
+//                 filter: selector
+//             });
+//             return false;
+//         });
 
-    }
-}
-gallery.init();
+//     }
+// }
+// gallery.init();
 
 
 

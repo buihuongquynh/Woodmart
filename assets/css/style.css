@@ -400,6 +400,7 @@
                        
                        .owl-carousel .owl-item img {
                            width: 117%;
+                           height: 300px;
                        }
                        
                        .banner .banner__link a:hover {
@@ -864,6 +865,8 @@
                        
                        .gallery_masonry {
                            width: 100%;
+                           display: flex;
+                           flex-wrap: wrap;
                        }
                        
                        .gallery-section .gallery__list li {
@@ -1019,9 +1022,11 @@
                        }
                        
                        .tem__center {
-                           display: flex;
+                           /* display: flex;
                            align-items: center;
-                           justify-content: center;
+                           justify-content: center; */
+                           width: 100%;
+                           height: 90%;
                        }
                        
                        .item__chal {
