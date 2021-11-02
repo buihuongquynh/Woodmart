@@ -6,7 +6,6 @@
                            box-sizing: border-box;
                            scroll-behavior: smooth;
                        }
-                       
                        body {
                            font-size: 62.5%;
                        }
@@ -55,9 +54,7 @@
                            display: flex;
                            align-items: center;
                        }
-                       .owl-nav{
-                           display: none !important;
-                       }
+                       
                        .header .menu__left .hover {
                            padding: 18px 0;
                            display: flex;

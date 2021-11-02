@@ -62,7 +62,7 @@ tabcontent.init();
 $('.owl-carousel').owlCarousel({
     loop: false,
     margin: 10,
-    nav: true,
+    nav: false,
     dots: true,
     responsive: {
         0: {
