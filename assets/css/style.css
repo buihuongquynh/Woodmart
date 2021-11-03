@@ -401,6 +401,7 @@
                        .owl-carousel .owl-item img {
                            width: 117%;
                            height: 300px;
+                           height: 100%;
                        }
                        
                        .banner .banner__link a:hover {
@@ -437,6 +438,7 @@
                        }
                        
                        .chil {
+                           
                            z-index: 1000;
                            transition: 0.5s;
                            transform: translateX(20%);
@@ -446,6 +448,7 @@
                            height: 100%;
                            width: 264%;
                            left: 100%;
+                           bottom: 0%;
                            background-color: white;
                            animation: run 0.3s;
                        }
